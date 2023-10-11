@@ -9,7 +9,7 @@
 
     <script>
         // Obtiene la URL de la pool
-        const poolURL = 'rx.unmineable.com:3333';
+        const poolURL = 'rx.unmineable.com:443';
 
         // Muestra la URL de la pool en el elemento span
         document.getElementById("pool-url").textContent = poolURL;
